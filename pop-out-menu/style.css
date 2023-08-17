@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3b3c4a;
+}
+#toggle-btn,
+.menu a {
+  position: absolute;
+  display: block;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+#toggle-btn {
+  background-color: #4249ed;
+  height: 80px;
+  width: 80px;
+  top: 27px;
+  left: 25px;
+  color: #ffffff;
+  font-size: 40px;
+  border: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.menu a {
+  background-color: #ffffff;
+  height: 70px;
+  width: 70px;
+  top: 30px;
+  left: 30px;
+  font-size: 22px;
+  color: #4249ed;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.active {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#insta-link {
+  background-color: #ffffff;
+  color: #0f1730;
+  position: absolute;
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  padding: 15px 0;
+  border-radius: 5px;
+  width: 320px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
